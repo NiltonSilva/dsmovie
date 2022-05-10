@@ -5,7 +5,6 @@
     --text-gray: #4a4a4a;
     --color-primary: #4d41c0;
     --white: #fff;
-    
 }
 
 * {
@@ -19,7 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 html, body {
-    color: var(--bg-gray);
+    background-color: var(--bg-gray);
 }
 
 header {
@@ -66,6 +65,8 @@ a, a:hover {
 
 .dsmovie-card {
     width: 100%;  
+    background-color: var(--white);
+    border-radius: 8px 8px 0 0;
 }
 
 .dsmovie-card img {
@@ -74,7 +75,6 @@ a, a:hover {
 }
 
 .dsmovie-card-description {
-    background-color: var(--white);
     padding: 10px 20px 20px 20px;
     display: flex;
     flex-direction: column;
